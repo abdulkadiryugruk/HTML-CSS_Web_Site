@@ -1,0 +1,84 @@
+
+
+/*text*/
+
+.text-center{
+    text-align: center;
+}
+heading-small {
+    font-size: 1.25rem;
+}
+heading-medium {
+    font-size: 1.5rem;
+}
+heading-big {
+    font-size: 1.75rem;
+}
+
+/*colors*/
+
+.bg-dark-blue {
+    background:teal;
+}
+.bg-light-blue {
+    background: tomato;
+}
+
+/*button*/
+.btn {
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+}
+.btn-primary{
+    background-color: tomato;
+}
+.btn-primary:hover {
+    color: tomato;
+    background-color: white;
+    border: 0.5px solid tomato;
+    cursor: pointer;
+}
+.btn-dark{
+    background-color: teal;
+}
+.btn-dark:hover{
+    color: teal;
+    background-color: white;
+    border: 0.5px solid teal;
+    cursor: pointer;
+}
+
+
+/* container*/
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+/*forms*/
+.form-grup{
+padding: 0.25rem 0;
+}
+.form-grup label {
+    display: block;
+}
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 1rem;
+}
+/*scroll*/
+::-webkit-scrollbar {
+    width: 13px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(165, 199, 209);
+}
+::-webkit-scrollbar-thumb{
+background: linear-gradient(teal, purple);
+border-radius: 10px;
+}
